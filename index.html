@@ -11,7 +11,7 @@
     <body>
       <!-- Hier steht irgend ein Inhalt -->
       <h2>Funktioniert Bootstrap?</h2>
-<h3>Grrrrrh!</h3>
+<h3>Grrrrrh!Bä</h3>
 <script>
   window.onload = go;
 function go() {
@@ -34,6 +34,8 @@ source:"Jesus"}];
 
   var randQuote = quotes[Math.floor(Math.random() * (quotes.length))];
   $("#text").html(randQuote.text);
+  document.getElementById("text").innerHTML=
+"<p> randQuote.text </p>";
   $("#author").html(randQuote.source);};
 </script>
 <div class="container">
