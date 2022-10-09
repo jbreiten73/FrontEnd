@@ -5,7 +5,7 @@
   
     
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
+<script src="javascript/random.js></Script>
     <title>Julias Spielwiese </title>
   </head>
     <body>
@@ -15,21 +15,7 @@
 <div id="text"></div>
         <div id="author"></div>
      <script>
-  $("#new-quote").click(function() {
-    genRandQuote();
-  });
-function genRandQuote(){
-     let quotes=[{text:"Manches können die Menschen besser, und 
-     manches die Skunks",source:"Mephitis"},
-{text:"Das Gegenteil einer großen Wahrheit ist eine andere große Wahrheit",
-source:"Niels Bohr"},
-{text:"Ich weiß,dass ich nichts weiß",source:"Sokrates"},
-{text:"Wer ohne Sünde ist, werde den ersten Stein",
-source:"Jesus"}];
-
-  var randQuote = quotes[Math.floor(Math.random() * (quotes.length))];
-  $("#text").html(randQuote.text);
-  $("#author").html(randQuote.source);};
+ 
  $("h2").css("color","red");</script>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
