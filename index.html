@@ -5,8 +5,7 @@
   
     
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="javascript/random.js"></script>
-<script src="javascript/bootstrap.min.js"></script>
+
     <title>Julias Spielwiese </title>
   </head>
     <body>
@@ -32,6 +31,10 @@ source:"Niels Bohr"},
 {text:"Ich weiß,dass ich nichts weiß",source:"Sokrates"},
 {text:"Wer ohne Sünde ist, werde den ersten Stein",
 source:"Jesus"}];
+
+  var randQuote = quotes[Math.floor(Math.random() * (quotes.length))];
+  $("#text").html(randQuote.text);
+  $("#author").html(randQuote.source);};
 </script>
 <div class="container">
   <div class="bg">
