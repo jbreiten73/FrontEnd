@@ -1,6 +1,10 @@
-  $("#new-quote").click(genRandQuote);
+ 
+   // Triggers genRandQuote when New Quote button is clicked
+  $("#new-quote").click(function() {
+    genRandQuote();
+  });
 function genRandQuote(){
-     let quotes=[{text:"Manches können die Menschen besser, und 
+  let quotes=[{text:"Manches können die Menschen besser, und 
      manches die Skunks",source:"Mephitis"},
 {text:"Das Gegenteil einer großen Wahrheit ist eine andere große Wahrheit",
 source:"Niels Bohr"},
