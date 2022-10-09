@@ -12,32 +12,7 @@
       <!-- Hier steht irgend ein Inhalt -->
       <h2>Funktioniert Bootstrap?</h2>
 <h3>Grrrrrh!Bä</h3>
-<script>
-  window.onload = go;
-function go() {
-  // Triggers genRandQuote when New Quote button is clicked
-  $("#new-quote").click(function() {
-    genRandQuote();
-  });
-  
-  // Generate a random quote when window is loaded initially
-  genRandQuote();
-}
-function genRandQuote(){
-  let quotes=[{text:"Manches können die Menschen besser, und 
-     manches die Skunks",source:"Mephitis"},
-{text:"Das Gegenteil einer großen Wahrheit ist eine andere große Wahrheit",
-source:"Niels Bohr"},
-{text:"Ich weiß,dass ich nichts weiß",source:"Sokrates"},
-{text:"Wer ohne Sünde ist, werde den ersten Stein",
-source:"Jesus"}];
 
-  var randQuote = quotes[Math.floor(Math.random() * (quotes.length))];
-  $("#text").html(randQuote.text);
-  document.getElementById("text").innerHTML=
-"<p> randQuote.text </p>";
-  $("#author").html(randQuote.source);};
-</script>
 <div class="container">
   <div class="bg">
       <div id="quote-box">
