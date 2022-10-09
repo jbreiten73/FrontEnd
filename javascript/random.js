@@ -6,7 +6,7 @@ function go() {
   });
   
   // Generate a random quote when window is loaded initially
-  //genRandQuote();
+  genRandQuote();
 }
 
   
@@ -16,9 +16,10 @@ function genRandQuote(){
 {text:"Das Gegenteil einer großen Wahrheit ist eine andere große Wahrheit",
 source:"Niels Bohr"},
 {text:"Ich weiß,dass ich nichts weiß",source:"Sokrates"},
-{text:"Wer ohne Sünde ist, werde den ersten Stein",
-source:"Jesus"}];
+{text:"Wer ohne Sünde ist, werfe den ersten Stein",
+source:"Jesus"},];
 
   var randQuote = quotes[Math.floor(Math.random() * (quotes.length))];
   $("#text").html(randQuote.text);
-  $("#author").html(randQuote.source);};
+  $("#author").html(randQuote.source);
+}
