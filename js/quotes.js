@@ -1,24 +1,4 @@
-/*
-Skip to content
-jbreiten73
-/
-FrontEnd
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-FrontEnd/javascript/random.js
-@jbreiten73
-jbreiten73 Update random.js
- 1 contributor
-25 lines (21 sloc)  781 Bytes*/
- window.onload = go;
+window.onload = go;
 function go() {
   // Triggers genRandQuote when New Quote button is clicked
   $("#new-quote").click(function() {
@@ -43,19 +23,4 @@ source:"Jesus"},];
   $("#text").html(randQuote.text);
   $("#author").html(randQuote.source);
 }
-/*
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-FrontEnd/random.js at main · jbreiten73/FrontEnd*/
+
