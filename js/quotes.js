@@ -6,7 +6,7 @@ function go() {
   });
   
   // Generate a random quote when window is loaded initially
-  genRandQuote();
+  // genRandQuote();
 }
 
   
