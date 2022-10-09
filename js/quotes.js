@@ -11,7 +11,7 @@ function go() {
 
   
 function genRandQuote(){
-  let quotes=[{id:1,text:"Manches können die Menschen besser, und 
+  var quotes=[{id:1,text:"Manches können die Menschen besser, und 
      manches die Skunks",source:"Mephitis"},
 {id:2,text:"Das Gegenteil einer großen Wahrheit ist eine andere große Wahrheit",
 source:"Niels Bohr"},
