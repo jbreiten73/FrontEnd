@@ -12,6 +12,8 @@
       <!-- Hier steht irgend ein Inhalt -->
       <h2>Funktioniert Bootstrap?</h2>
       <button class="btn btn-primary">Knopfdruck</button>
+<div id="text"></div>
+        <div id="author"></div>
      <script>
      let quotes=[{text:"Manches können die Menschen besser, und 
      manches die Skunks",source:"Mephitis"},
@@ -19,7 +21,7 @@
 source:"Niels Bohr"},
 {text:"Ich weiß,dass ich nichts weiß",source:"Sokrates"},
 {text:"Wer ohne Sünde ist, werde den ersten Stein",
-source:"Jesus"}]
+source:"Jesus"}];
 
   var randQuote = quotes[Math.floor(Math.random() * (quotes.length))];
   $("#text").html(randQuote.text);
