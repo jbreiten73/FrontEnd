@@ -20,6 +20,10 @@ source:"Niels Bohr"},
 {text:"Ich weiß,dass ich nichts weiß",source:"Sokrates"},
 {text:"Wer ohne Sünde ist, werde den ersten Stein",
 source:"Jesus"}]
+
+  var randQuote = quotes[Math.floor(Math.random() * (quotes.length))];
+  $("#text").html(randQuote.text);
+  $("#author").html(randQuote.source);
  $("h2").css("color","red");</script>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
