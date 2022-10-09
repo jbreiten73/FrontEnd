@@ -12,8 +12,20 @@
     <body>
       <!-- Hier steht irgend ein Inhalt -->
       <h2>Funktioniert Bootstrap?</h2>
+
+
+  window.onload = go;
+function go() {
+  // Triggers genRandQuote when New Quote button is clicked
+  $("#new-quote").click(function() {
+    genRandQuote();
+  });
+  
+  // Generate a random quote when window is loaded initially
+  genRandQuote();
+}
 <div class="container">
-    <div class="bg">
+  <div class="bg">
       <div id="quote-box">
         <div id="text"></div>
         <div id="author"></div>
