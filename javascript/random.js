@@ -1,8 +1,15 @@
- 
-   // Triggers genRandQuote when New Quote button is clicked
+ window.onload = go;
+function go() {
+  // Triggers genRandQuote when New Quote button is clicked
   $("#new-quote").click(function() {
     genRandQuote();
   });
+  
+  // Generate a random quote when window is loaded initially
+  genRandQuote();
+}
+
+  
 function genRandQuote(){
   let quotes=[{text:"Manches können die Menschen besser, und 
      manches die Skunks",source:"Mephitis"},
