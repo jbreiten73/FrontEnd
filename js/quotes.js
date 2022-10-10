@@ -13,7 +13,7 @@ source: "Source 1"},
 {text: "Quote 2", source: "Source 2"},
 {text: "Quote 3", source: "Source 3"},
 {text: "Quote 4", source: "Source 4"},
-{text: "Quote 5", source: "Source 5"},];
+{text: "Quote 5", source: "Source 5"}];
 
   var randQuote = quotes[Math.floor(Math.random() * (quotes.length))];
   $("#text").html(randQuote.text);
