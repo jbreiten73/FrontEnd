@@ -21,6 +21,7 @@ source: "Source 1"},
   var randColor2=colors[Math.floor(Math.random()*(colors.length))];
  $("#text").html(randQuote.text);
   $("#text").css("color", randColor1);
+  $("#text").css("font-size","16px");
   $("#author").html(randQuote.source);
   $("#author").css("color", randColor2);
 }
