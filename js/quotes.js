@@ -3,7 +3,7 @@ function go(){
   // Triggers genRandQuote when New Quote button is clicked
   $("#new-quote").click(function() {
     genRandQuote();
-  };
+  });
   genRandQuote();
 }
   
