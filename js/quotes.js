@@ -17,7 +17,7 @@ source: "Source 1"},
 
   var randQuote = quotes[Math.floor(Math.random() * (quotes.length))];
   $("#text").html(randQuote.text);
-  $("#text").css("color","Green");
+  $("#text").css("color","green");
   $("#author").html(randQuote.source);
 }
 
